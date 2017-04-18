@@ -1,0 +1,10 @@
+name = "Islandora Sample Batch"
+description = "Sample Batch using plain binary content model."
+package = Islandora Customizations
+core = 7.x
+version = 7.x-dev
+dependencies[] = islandora
+dependencies[] = islandora_batch
+dependencies[] = islandora_binary_object
+files[] = includes/sample.batch_preprocessor.inc
+files[] = includes/sample.batch_object.inc
